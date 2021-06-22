@@ -1,7 +1,7 @@
 import 'package:firebase_performance/firebase_performance.dart';
 
 HttpMethod toHttpMethod(String method) {
-  HttpMethod httpMethod = HttpMethod.Get;
+  HttpMethod? httpMethod = HttpMethod.Get;
   switch (method.toUpperCase()) {
     case "GET":
       httpMethod = HttpMethod.Get;
